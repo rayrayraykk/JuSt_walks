@@ -1,4 +1,4 @@
-# Jump-Stay-random-wals
+# Jump-Stay-random-walks
 This is the python3+jupyter notebook implementation for
 
 JUST - Are Meta-Paths Necessary? Revisiting Heterogeneous Graph Embeddings
