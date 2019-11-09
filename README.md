@@ -6,7 +6,7 @@ This is the python3 and jupyter notebook implementation for
 
 Based on *https://github.com/eXascaleInfolab/JUST*
 
-I modified author's code，added the code of Memory Domain they mentioned but not included. Besides,I added Matrix Factorization methods to get embeddings by sampling for:
+I modified author's code，added the code of Memory Domain they mentioned but not included. Besides,I added Matrix Factorization methods to get embeddings by sampling:
 
 **Network Embedding as Matrix Factorization: Unifying DeepWalk, LINE, PTE, and node2vec**
 
