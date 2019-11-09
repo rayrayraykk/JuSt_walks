@@ -4,7 +4,7 @@ This is the python3 and jupyter notebook implementation for
 
 **JUST - Are Meta-Paths Necessary? Revisiting Heterogeneous Graph Embeddings** 
 
-*https://github.com/eXascaleInfolab/JUST*
+Based on *https://github.com/eXascaleInfolab/JUST*
 
 I modified author's code，added the code of Memory Domain they mentioned but not included. Besides,I added Matrix Factorization methods to get embeddings by sampling for:
 
