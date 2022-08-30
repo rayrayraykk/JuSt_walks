@@ -62,4 +62,4 @@ python main.py --input Datasets/DBLP/dblp.edgelist --DATA DBLP --dimensions 128 
 
 By using walk path to get $P(u, v)$
 
-Then using SVD to get embedding: $\overrightarrow{S_{u}} \cdot \overrightarrow{t_{v}}=z=\log \left(\frac{|V| \cdot P(u, v)}{k}\right)=\log \left(\frac{\#(w, c)|\mathcal{D}|}{b \#(w) \#(c)}\right)$
+Then using SVD to get embedding: $\overrightarrow{S_{u}} \cdot \overrightarrow{t_{v}}=z=\log \left(\frac{|V| \cdot P(u, v)}{k}\right)=\log \left(\frac{num(w, c)|\mathcal{D}|}{b num(w) num(c)}\right)$
