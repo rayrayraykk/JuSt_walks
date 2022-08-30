@@ -60,13 +60,6 @@ Use **evaluation.ipynb** to get F1 and NMI score.
 python main.py --input Datasets/DBLP/dblp.edgelist --DATA DBLP --dimensions 128 --walk_length 100 --num_walks 10 --window-size 10 --alpha 0.5 --train 0 --memory 2
 ```
 
-By using walk path to get 
-$$
-P(u, v)
-$$
-Then using SVD to get embedding:
+By using walk path to get $P(u, v)$
 
-
-$$
-\overrightarrow{S_{u}} \cdot \overrightarrow{t_{v}}=z=\log \left(\frac{|V| \cdot P(u, v)}{k}\right)=\log \left(\frac{\#(w, c)|\mathcal{D}|}{b \#(w) \#(c)}\right)
-$$
+Then using SVD to get embedding: $\overrightarrow{S_{u}} \cdot \overrightarrow{t_{v}}=z=\log \left(\frac{|V| \cdot P(u, v)}{k}\right)=\log \left(\frac{\#(w, c)|\mathcal{D}|}{b \#(w) \#(c)}\right)$
